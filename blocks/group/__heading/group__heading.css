@@ -11,5 +11,6 @@
   .group__heading {
     font-size: 20px;
     margin: 14px 0 40px;
+    text-align: center;
   }
 }
