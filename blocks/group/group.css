@@ -1,0 +1,12 @@
+.group {
+  min-width: 100%;
+  padding: 70px 0;
+  width: calc(100vw - 8.1px);
+  position: relative;
+  margin-left: -50vw;
+  left: 50%;
+}
+
+.group:nth-child(odd) {
+  background: #f8f8f8;
+}

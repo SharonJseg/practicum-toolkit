@@ -1,0 +1,25 @@
+.lead__image {
+  position: absolute;
+  top: 0;
+  right: -130px;
+  z-index: -1;
+  max-width: 643px;
+  border-radius: 32px;
+  transform: rotate(-5deg);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.308);
+  -webkit-border-radius: 32px;
+  -moz-border-radius: 32px;
+  -ms-border-radius: 32px;
+  -o-border-radius: 32px;
+  -webkit-transform: rotate(-5deg);
+  -moz-transform: rotate(-5deg);
+  -ms-transform: rotate(-5deg);
+  -o-transform: rotate(-5deg);
+}
+
+@media screen and (max-width: 1280px) {
+  .lead__image {
+    right: -16px;
+    max-width: 580px;
+  }
+}

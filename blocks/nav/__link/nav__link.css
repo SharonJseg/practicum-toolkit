@@ -1,0 +1,29 @@
+.nav__link {
+  font-size: 18px;
+  min-height: 40px;
+  line-height: 1.1;
+  background: #1d6bf3;
+  text-transform: uppercase;
+  padding: 0 13px;
+  border-radius: 50px;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 8px;
+  font-style: normal;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  transition: background 0.3s ease-in;
+  -webkit-transition: background 0.3s ease-in;
+  -moz-transition: background 0.3s ease-in;
+  -ms-transition: background 0.3s ease-in;
+  -o-transition: background 0.3s ease-in;
+}
+
+.nav__link:hover {
+  background: #154cac;
+}

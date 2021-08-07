@@ -1,0 +1,28 @@
+.footer {
+  box-sizing: border-box;
+  padding: 100px 0 0;
+  margin: 50px 0 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer::before {
+  content: '';
+  position: absolute;
+  width: 98%;
+  height: 200px;
+  bottom: -52%;
+  left: 0;
+  z-index: -1;
+  transform: rotate(3deg);
+  background: #154cac;
+  border-radius: 32px 32px 0 0;
+  -webkit-border-radius: 32px 32px 0 0;
+  -moz-border-radius: 32px 32px 0 0;
+  -ms-border-radius: 32px 32px 0 0;
+  -o-border-radius: 32px 32px 0 0;
+  -webkit-transform: rotate(3deg);
+  -moz-transform: rotate(3deg);
+  -ms-transform: rotate(3deg);
+  -o-transform: rotate(3deg);
+}

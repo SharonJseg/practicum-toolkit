@@ -1,0 +1,10 @@
+.nav__group {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  column-gap: 38px;
+  row-gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
