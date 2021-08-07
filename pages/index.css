@@ -96,7 +96,6 @@
 }
 
 .lead__image {
-  display: inline;
   position: absolute;
   top: 0;
   right: -130px;
@@ -216,7 +215,7 @@
   padding: 0;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 96px;
+  gap: 50px;
 }
 
 .resource__image {
@@ -297,9 +296,25 @@
 
 .footer__copyright {
   margin: 0 20px 0;
+  align-self: flex-end;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.5;
   color: #fff;
+}
+
+@media screen and (max-width: 1280px) {
+  .header::before {
+    right: 7px;
+  }
+
+  .header__slogan {
+    margin-right: 80px;
+  }
+
+  .lead__image {
+    right: -16px;
+    max-width: 580px;
+  }
 }
