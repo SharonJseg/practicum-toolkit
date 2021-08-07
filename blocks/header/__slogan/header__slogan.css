@@ -2,10 +2,38 @@
   color: #fff;
   font-size: 18px;
   line-height: 1.1;
+  /* margin: 0; */
+  margin-right: 140px;
 }
 
-@media screen and (max-width: 1280px) {
+/* @media screen and (max-width: 1280px) {
+  .header__slogan {
+  }
+} */
+
+@media screen and (max-width: 768px) {
   .header__slogan {
     margin-right: 80px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header__slogan {
+    padding: 5px 13px;
+    border-radius: 25px;
+    margin-right: 0px;
+    font-size: 16px;
+    font-weight: 800;
+    background-color: #1d6bf3;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .header__slogan {
+    font-size: 14px;
   }
 }

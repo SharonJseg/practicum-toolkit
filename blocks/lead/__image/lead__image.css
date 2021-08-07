@@ -23,3 +23,35 @@
     max-width: 580px;
   }
 }
+
+@media screen and (max-width: 1130px) {
+  .lead__image {
+    right: 0;
+    max-width: 430px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .lead__image {
+    right: 0;
+    max-width: 330px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__image {
+    right: 0;
+    max-width: 250px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .lead__image {
+    display: none;
+  }
+}

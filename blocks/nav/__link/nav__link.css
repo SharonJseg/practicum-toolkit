@@ -27,3 +27,9 @@
 .nav__link:hover {
   background: #154cac;
 }
+
+@media screen and (max-width: 425px) {
+  .nav__link {
+    font-size: 16px;
+  }
+}
